@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+rootdir: /home/ti/Eng-software/Atividade em Sala - Ciclo Vermelho-Verde-Refatorar
+collecting ... collected 5 items
+
+test_frete.py::test_frete_padrao_cobra_taxa_fixa_mais_dois_reais_por_kg PASSED [ 20%]
+test_frete.py::test_frete_expresso_cobra_taxa_fixa_mais_tres_e_cinquenta_por_kg PASSED [ 40%]
+test_frete.py::test_retirada_na_loja_e_gratuita_independente_do_peso PASSED [ 60%]
+test_frete.py::test_peso_negativo_e_rejeitado PASSED                     [ 80%]
+test_frete.py::test_modalidade_desconhecida_e_rejeitada PASSED           [100%]
+
+============================== 5 passed in 0.01s ===============================
